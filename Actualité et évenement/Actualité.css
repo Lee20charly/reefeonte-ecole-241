@@ -1,0 +1,153 @@
+/* Styles pour le header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Styles pour la vidéo principale */
+  .video-container {
+    width: 100%;
+    height: 500px; /* Hauteur de la vidéo */
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ /* CSS Code */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.blog {
+  margin-bottom: 2em;
+}
+
+.blog ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog li {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.blog img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+  float: left;
+}
+
+.blog h3 {
+  margin-top: 0;
+}
+
+.blog .category {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.categories {
+  margin-top: 2em;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories li {
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.categories a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  color: #23527c;
+}
+
+.events {
+  margin-top: 2em;
+}
+
+.events ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.events li {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.events button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.events button:hover {
+  background-color: #23527c;
+}
+
+  .footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="inscription.css">
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Logo ici -->
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" class="btn">Accueil</a></li>
+        <li><a href="#" class="btn">Formation</a></li>
+        <li><a href="#" class="btn">Inscription</a></li>
+        <li><a href="#" class="btn">Actualité</a></li>
+        <li><a href="#" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Div pour la vidéo principale -->
+  <div class="video-container">
+    <!-- Vidéo ici -->
+    <video src="video.mp4" autoplay loop muted></video>
+  </div>
+  
+ <!-- HTML Code -->
+<form action="/ma-page-de-traitement" method="post">
+  <h2>Inscription</h2>
+  <div>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="user_nom" />
+  </div>
+  <div>
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="user_prenom" />
+  </div>
+  <div>
+    <label for="date_naissance">Date de naissance :</label>
+    <input type="date" id="date_naissance" name="user_date_naissance" />
+  </div>
+  <div>
+    <label for="adresse">Adresse :</label>
+    <input type="text" id="adresse" name="user_adresse" />
+  </div>
+  <div>
+    <label for="telephone">Téléphone :</label>
+    <input type="tel" id="telephone" name="user_telephone" />
+  </div>
+  <div>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="user_email" />
+  </div>
+  <div>
+    <label for="formation">Choix de la formation :</label>
+    <select id="formation" name="user_formation">
+      <option value="">Sélectionnez une formation</option>
+      <option value="formation1">Formation 1</option>
+      <option value="formation2">Formation 2</option>
+      <!-- Add more options here -->
+    </select>
+  </div>
+  <div>
+    <label for="cv">CV :</label>
+    <input type="file" id="cv" name="user_cv" />
+  </div>
+  <div>
+    <label for="lettre_motivation">Lettre de motivation :</label>
+    <input type="file" id="lettre_motivation" name="user_lettre_motivation" />
+  </div>
+  <div>
+    <label for="diplomes">Diplômes :</label>
+    <input type="file" id="diplomes" name="user_diplomes" />
+  </div>
+  <div class="button">
+    <button type="submit">Valider</button>
+  </div>
+</form>
+
+<!-- Informations complémentaires -->
+<h2>Informations complémentaires</h2>
+<ul>
+  <li>Frais de scolarité et modalités de paiement</li>
+  <li>Bourses disponibles</li>
+  <li>FAQ</li>
+</ul>
+
+
+<!-- Footer -->
+<footer>
+  <section class="footer" id="quick-links">
+    <h2>Liens rapides</h2>
+    <ul>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Mentions légales</a></li>
+      <li><a href="#">Politique de confidentialité</a></li>
+    </ul>
+  </section>
+  <section id="social-media">
+    <h2>Réseaux sociaux</h2>
+    <ul>
+      <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+  </section>
+  <section id="contact-info">
+    <h2>Adresse et informations de contact</h2>
+    <p>Adresse : 123 rue de l'école, 75001 Paris</p>
+    <p>Téléphone : 01 23 45 67 89</p>
+    <p>Email : [contact@ecole.com](mailto:contact@ecole.com)</p>
+  </section>
+</footer>
+
+</body>
+</html>
